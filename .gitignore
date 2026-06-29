@@ -1,0 +1,21 @@
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Cache e bytecode do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos gerados pelo PyInstaller
+build/
+dist/
+*.spec
+
+# Configurações do PyCharm
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
