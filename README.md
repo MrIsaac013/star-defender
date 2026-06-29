@@ -30,14 +30,10 @@ star_defender/
 ├── main.py              # Loop principal e telas (menu, jogo, vitória, derrota)
 ├── entidades.py          # Classes: Jogador, Inimigo, Meteoro, Tiros, Explosão
 ├── config.py              # Configurações globais e funções de carregamento de assets
-├── gerar_assets.py        # Script que gerou as imagens (já executado, não precisa rodar de novo)
-├── gerar_sons.py           # Script que gerou os sons (já executado, não precisa rodar de novo)
+├── gerar_assets.py        # Script que gerou as imagens 
+├── gerar_sons.py           # Script que gerou os sons 
 ├── requirements.txt
 └── assets/
     ├── imagens/   (.png gerados proceduralmente — sem direitos de terceiros)
     └── sons/      (.wav sintetizados — sem direitos de terceiros)
 ```
-
-Todos os caminhos de assets usam **caminho relativo** baseado na pasta do script
-(`BASE_DIR` em `config.py`), exatamente como recomendado no material da disciplina.
-Isso evita o erro comum de caminho absoluto que não funciona em outra máquina.
